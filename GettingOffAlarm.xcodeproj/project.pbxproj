@@ -13,6 +13,8 @@
 		59B90D282788662000BCFC51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B90D272788662000BCFC51 /* Preview Assets.xcassets */; };
 		59B90D332788662100BCFC51 /* GettingOffAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B90D322788662100BCFC51 /* GettingOffAlarmTests.swift */; };
 		59B90D3E2788662100BCFC51 /* GettingOffAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B90D3D2788662100BCFC51 /* GettingOffAlarmUITests.swift */; };
+		59B90D52278872C100BCFC51 /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B90D51278872C100BCFC51 /* SearchPageView.swift */; };
+		59B90D54278872CD00BCFC51 /* BookmarkPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B90D53278872CD00BCFC51 /* BookmarkPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		59B90D392788662100BCFC51 /* GettingOffAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingOffAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B90D3D2788662100BCFC51 /* GettingOffAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingOffAlarmUITests.swift; sourceTree = "<group>"; };
 		59B90D3F2788662100BCFC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B90D51278872C100BCFC51 /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
+		59B90D53278872CD00BCFC51 /* BookmarkPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 			children = (
 				59B90D202788661F00BCFC51 /* GettingOffAlarmApp.swift */,
 				59B90D222788661F00BCFC51 /* ContentView.swift */,
-				59B90D242788662000BCFC51 /* Assets.xcassets */,
+				59B90D51278872C100BCFC51 /* SearchPageView.swift */,
+				59B90D53278872CD00BCFC51 /* BookmarkPageView.swift */,
 				59B90D292788662000BCFC51 /* Info.plist */,
+				59B90D242788662000BCFC51 /* Assets.xcassets */,
 				59B90D262788662000BCFC51 /* Preview Content */,
 			);
 			path = GettingOffAlarm;
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B90D232788661F00BCFC51 /* ContentView.swift in Sources */,
+				59B90D52278872C100BCFC51 /* SearchPageView.swift in Sources */,
 				59B90D212788661F00BCFC51 /* GettingOffAlarmApp.swift in Sources */,
+				59B90D54278872CD00BCFC51 /* BookmarkPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
